@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid c0b0c33a-0d2b-4391-9b6d-3484a571703c)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 25.4 88.9) (size 12.7 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 793272d6-5bd4-47b7-8ad4-3d90c0f49c99)
+    (property "Sheetname" "Core" (at 25.4 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Core.kicad_sch" (at 25.4 102.1846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Automate_ES_V2"
+        (path "/c0b0c33a-0d2b-4391-9b6d-3484a571703c" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 139.7) (size 12.7 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8df41db3-9549-4b1f-9d35-49f7cca90ec9)
+    (property "Sheetname" "IO_2" (at 25.4 138.9884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "IO_2.kicad_sch" (at 25.4 152.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Automate_ES_V2"
+        (path "/c0b0c33a-0d2b-4391-9b6d-3484a571703c" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 25.4 114.3) (size 12.7 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 924ddbff-cf32-44a4-81b7-05748a5d0373)
+    (property "Sheetname" "IO_1" (at 25.4 113.5884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "IO_1.kicad_sch" (at 25.4 127.5846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Automate_ES_V2"
+        (path "/c0b0c33a-0d2b-4391-9b6d-3484a571703c" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
